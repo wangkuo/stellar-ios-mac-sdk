@@ -26,7 +26,7 @@ public struct TransactionXDR: XDRCodable {
         self.memo = memo
         self.operations = operations
         
-        fee = UInt32(100 * operations.count)
+        fee = UInt32(20000 * operations.count)
         reserved = 0
     }
     

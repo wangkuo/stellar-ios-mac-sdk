@@ -12,7 +12,7 @@ import Foundation
 /// See [Stellar Guides] (https://www.stellar.org/developers/learn/concepts/transactions.html, "Transactions")
 public class Transaction {
     
-    public let baseFee = 100
+    public let baseFee = 20000
     public let fee:UInt32
     public let sourceAccount:TransactionAccount
     public let operations:[Operation]
